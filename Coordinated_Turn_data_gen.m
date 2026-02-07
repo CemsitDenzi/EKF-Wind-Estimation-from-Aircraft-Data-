@@ -15,7 +15,7 @@ Wind_E = -10.0;
 Wind_D = 0.0;           
 Vw_N_vec = [Wind_N; Wind_E; Wind_D]; 
 %Sensor noises
-SF_true =  1;%0.97;     
+SF_true =  0.97;     
 noise_acc = 0.1;       
 noise_gyro = 0.002;    
 noise_gps = 0.2;       
